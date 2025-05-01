@@ -10,25 +10,21 @@ Collaborators:
   Eunice Pialan
   Aerial Abella
 
-<b>Reader’s Nook: Sales and Inventory Management for Bookstore that sells Novels
+<b>Reader’s Nook: Sales and Inventory Management for Bookstore that sells Novels</b>
 
 Overview:
-Reader’s Nook is a specialized retail bookstore that sells a wide variety of novels across different genres such as mystery, romance, science fiction, fantasy, and literary fiction. The store operates as a brick-and-mortar business and focuses on physical book sales only. It does not currently engage in online sales or consignment operations. All books are purchased from suppliers, stocked in-store, and sold directly to walk-in customers.
+&nbsp; &nbsp; &nbsp;Reader’s Nook is a specialized retail bookstore that sells a wide variety of novels across different genres such as mystery, romance, science fiction, fantasy, and literary fiction. The store operates as a brick-and-mortar business and focuses on physical book sales only. It does not currently engage in online sales or consignment operations. All books are purchased from suppliers, stocked in-store, and sold directly to walk-in customers.
 
-System Scope
+<h1>System Scope</h1>
 The Sales and Inventory Management System for Reader’s Nook will cover the following operational and functional areas:
 
-1. Book Management
-Staff can add, edit, and delete book records with comprehensive details such as title, author, ISBN, price, cost, genre, description, and publication data.
-Each book is assigned a physical storage location (e.g., aisle/shelf).
+<ul>1. Book Management</ul>
+<li>Staff can add, edit, and delete book records with comprehensive details such as title, author, ISBN, price, cost, genre, description, and publication data.</li>
+<li>Each book is assigned a physical storage location (e.g., aisle/shelf).</li>
+Books are organized and searchable by title, author, and genre.</li>
 
-
-Books are organized and searchable by title, author, and genre.
-
-
-
-2. Inventory Control
-The system maintains real-time stock levels of all novels in the store.
+<ul>2. Inventory Control</ul>
+The system maintains real-time stock levels of all novels in the store.</li>
 
 
 Staff can record incoming stock from suppliers and track inventory movement.
