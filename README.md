@@ -1,6 +1,6 @@
 # Readers-Nook
-<a href="Home">Home</a>
-<a href="Guide">Guide</a>
+<a href="#Home">Home</a>
+<a href="#Guide">Guide</a>
 
 <h2>Final Project for CC225</h2>
 
