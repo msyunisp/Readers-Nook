@@ -1,15 +1,15 @@
 # Readers-Nook
 Final Project for CC225
 
-Collaborators:
-  Russel Benedict Alforque 
-  Victor Ronnuel David
-  Britz Pitogo
-  Jesa Mae 
-  Ryan Andrie Coretico
-  Eunice Pialan
-  Aerial Abella
-
+<ul>Collaborators:
+  <li>Russel Benedict Alforque </li>
+  <li>Victor Ronnuel David</li>
+  <li>Britz Pitogo</li>
+  <li>Jesa Mae </li>
+  <li>Ryan Andrie Coretico</li>
+  <li>Eunice Pialan</li>
+  <li>Aerial Abella</li>
+</ul>
 <b>Reader’s Nook: Sales and Inventory Management for Bookstore that sells Novels</b>
 
 Overview:
