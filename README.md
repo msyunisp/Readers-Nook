@@ -1,16 +1,19 @@
 # Readers-Nook
+<a href="#Home">Home</a>
+<a href="#Guide">Guide</a>
+
 <h2>Final Project for CC225</h2>
 
 <ul>Collaborators:
-  <li>Russel Benedict Alforque </li>
-  <li>Victor Ronnuel David</li>
-  <li>Britz Pitogo</li>
-  <li>Jesa Mae </li>
-  <li>Ryan Andrie Coretico</li>
-  <li>Eunice Pialan</li>
+  <li>Russel Benedict F. Alforque </li>
+  <li>Victor Ronnuel C. David</li>
+  <li>Britz Lemjie P. Pitogo</li>
+  <li>Jesa Mae M. Limpangug </li>
+  <li>Ryan Andrie P. Coretico</li>
+  <li>Eunice N. Pialan</li>
   <li>Aerial Abella</li>
 </ul>
-<b>Reader’s Nook: Sales and Inventory Management for Bookstore that sells Novels</b>
+<h1 id="Home">Reader’s Nook: Sales and Inventory Management for Bookstore that sells Novels</h1>
 
 Overview:
 &nbsp; &nbsp; &nbsp;Reader’s Nook is a specialized retail bookstore that sells a wide variety of novels across different genres such as mystery, romance, science fiction, fantasy, and literary fiction. The store operates as a brick-and-mortar business and focuses on physical book sales only. It does not currently engage in online sales or consignment operations. All books are purchased from suppliers, stocked in-store, and sold directly to walk-in customers.
@@ -65,3 +68,9 @@ The Sales and Inventory Management System for Reader’s Nook will cover the fol
 <li>No handling of digital content (eBooks, audiobooks).</li>
 <li>No support for consignment-based book sales or rentals.</li>
 </ul>
+
+<h1 id="Guide">Guide</h1>
+<br>Install and Setup your XAMPP
+<br>You need to clone this repository inside <b>XAMPP->htdocs->phpscripts</b>(you can name it anything but ill be referring to it as phpscripts)
+<br>&nbsp; &nbsp; <i>The htdocs directory is where XAMPP's local Apache server looks for files to serve to the web browser.</i>
+<br>Try opening the apache server using <b>http://localhost/phpscripts</b>, it will open the index.php file
