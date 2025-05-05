@@ -3,6 +3,8 @@
 -- Host: localhost    Database: readers_nook_db
 -- ------------------------------------------------------
 -- Server version	8.0.41
+CREATE DATABASE IF NOT EXISTS readers_nook_db;
+USE readers_nook_db;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
