@@ -71,6 +71,7 @@ The Sales and Inventory Management System for Reader’s Nook will cover the fol
 
 <h1 id="Guide">Guide</h1>
 <br>Install and Setup your XAMPP
-<br>You need to clone this repository inside <b>XAMPP->htdocs->phpscripts</b>(you can name it anything but ill be referring to it as phpscripts)
+<br>You need to clone this repository inside <b>XAMPP->htdocs</b>
 <br>&nbsp; &nbsp; <i>The htdocs directory is where XAMPP's local Apache server looks for files to serve to the web browser.</i>
-<br>Try opening the apache server using <b>http://localhost/phpscripts</b>, it will open the index.php file
+<br>Try opening the apache server using <b>http://localhost/readers-nook</b>, it will open the index.php file
+
