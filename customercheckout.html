@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Customer Checkout</title>
   <link rel="stylesheet" href="styles/customercheckout.css">
 </head>
+
 <body>
   <div class="background">
     <div class="checkout-container">
@@ -12,11 +14,11 @@
       <div class="logo-container">
         <!-- Replace with your logo if needed -->
         <img src="img/logo.png" alt="Logo" class="logo" />
-    </div>
+      </div>
       <div class="header-row">
         <div class="back-btn">&#8592;</div>
         <div class="title">CUSTOMER CHECKOUT</div>
-        <button class="proceed-btn">Proceed to Payment</button>
+        <button class="proceed-btn" onclick="showPopup()">Proceed to Payment</button>
       </div>
       <div class="table-container">
         <table>
@@ -42,7 +44,6 @@
                 <button class="remove-btn">Remove</button>
               </td>
             </tr>
-           
           </tbody>
         </table>
       </div>
@@ -59,23 +60,23 @@
       </div>
     </div>
   </div>
-  <script>
-    
-    const minusBtn = document.getElementById('minus-btn');
-    const plusBtn = document.getElementById('plus-btn');
-    const qtyInput = document.getElementById('qty-input');
 
-    plusBtn.addEventListener('click', function() {
-      let current = parseInt(qtyInput.value, 10);
-      qtyInput.value = current + 1;
-    });
+  <div id="paymentPopup" class="popup">
+    <div class="popup-content">
+      <h2><strong>Payment</strong></h2>
+      <div class="payment-summary"><p>No. of Items: <strong id="item-total">2</strong></p></div>
+      <div class="payment-summary"><p>Total: <strong id="payment-total">Php 400.00</strong></p></div>
 
-    minusBtn.addEventListener('click', function() {
-      let current = parseInt(qtyInput.value, 10);
-      if (current > 1) {
-        qtyInput.value = current - 1;
-      }
-    });
-  </script>
+      <input type="text" placeholder="Enter Cash Tendered" class="input-field"> <!-- disable this if amount insufficient --> 
+
+      <div class="warning" style="display: none;">Cash Tendered is insufficient.</div>
+
+      <button class="btn-proceed">Proceed</button>
+      <button class="btn-cancel" onclick="hidePopup()">Cancel</button>
+    </div>
+  </div>
+
+  <script src="scripts/customercheckout.js"></script>
 </body>
+
 </html>
