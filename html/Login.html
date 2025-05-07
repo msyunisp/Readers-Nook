@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN VIEW</title>
+
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background: #e6e6cc;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .container {
+          display: flex;
+          align-items: center;
+          gap: 60px;
+        }
+    
+        .left-panel {
+          text-align: center;
+        }
+    
+        .left-panel img {
+          width: 150px;
+          margin-bottom: 0px;
+        }
+    
+        .left-panel h1 {
+          margin: 0;
+          font-size: 40px;
+          font-weight: bold;
+        }
+    
+        .left-panel p {
+          margin: 3px 0;
+          color: #0f0c0c;
+          font-size: 15px;
+        }
+    
+        .login-box {
+          background: #fff;
+          padding: 30px 25px;
+          border-radius: 18px;
+          box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+          width: 280px;
+        }
+    
+        .login-box input {
+          width: 100%;
+          padding: 12px;
+          margin-bottom: 15px;
+          border-radius: 12px;
+          border: 1px solid #ccc;
+          font-size: 15px;
+          box-sizing: border-box;
+        }
+    
+        .login-box button {
+          width: 100%;
+          padding: 12px;
+          border: none;
+          border-radius: 12px;
+          background-color: #a9b3a5;
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <img src="logo.svg" alt="Logo">
+                <h1>Reader's Nook</h1>
+                <p>For Lovers of Great Stories.</p>
+        </div>
+        <div class="login-box">
+            <input type="text" placeholder="User ID">
+            <input type="password" placeholder="Password">
+            <button>Log In</button>
+        </div>
+    </div>
+</body>
+</html>
