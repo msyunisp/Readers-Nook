@@ -1,4 +1,6 @@
-
+<?php
+include 'database.php';
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +10,5 @@
 </head>
 <body>
     HELLO FROM HOMEPAGE
-    <?php
-include 'database.php';
-?>
 </body>
 </html>
