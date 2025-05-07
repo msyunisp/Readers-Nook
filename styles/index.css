@@ -6,7 +6,7 @@
   }
   
   body {
-    background-color: #c0392b; 
+    background-color: #102E50; 
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@
   .container {
     display: flex;
     width: 800px;
-    background-color: #c0392b;
+    background-color: #102E50;
     color: white;
     padding: 40px;
     border-radius: 10px;
@@ -75,7 +75,7 @@
   .login-box button {
     width: 100%;
     padding: 12px;
-    background-color: #c0392b;
+    background-color: #102E50;
     color: white;
     font-weight: bold;
     border: none;
@@ -84,12 +84,12 @@
   }
   
   .login-box button:hover {
-    background-color: #a93226;
+    background-color: #27548A;
   }
   
   .error {
     margin-top: 10px;
-    color: #c0392b;
+    color: #102E50;
     font-size: 13px;
   }
   
