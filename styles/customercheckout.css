@@ -7,7 +7,7 @@ body, html {
   
   .background {
     min-height: 100vh;
-    background: #d9534f;
+    background: #102E50;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@ body, html {
   
   .checkout-container {
     background: #fff;
-    border: 3px solid #d9534f;
+    border: 3px solid #102E50;
     border-radius: 20px;
     width: 900px;
     max-width: 98vw;
@@ -40,7 +40,7 @@ body, html {
     height: 80px;
     background: #fff;
     border-radius: 50%;
-    border: 4px solid #d9534f;
+    border: 4px solid #102E50;
     object-fit: contain;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     display: block;
@@ -59,7 +59,7 @@ body, html {
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    background: #d9534f;
+    background: #102E50;
     color: #fff;
     border: 3px solid #3498db;
     display: flex;
@@ -73,7 +73,7 @@ body, html {
   .title {
     font-size: 2.2em;
     font-weight: bold;
-    color: #d9534f;
+    color: #102E50;
     font-style: italic;
     flex: 1;
     margin-left: 8px;
@@ -81,8 +81,8 @@ body, html {
   
   .proceed-btn {
     background: #fff;
-    color: #d9534f;
-    border: 2px solid #d9534f;
+    color: #102E50;
+    border: 2px solid #102E50;
     border-radius: 18px;
     padding: 10px 24px;
     font-size: 1.1em;
@@ -91,12 +91,12 @@ body, html {
     transition: background 0.2s, color 0.2s;
   }
   .proceed-btn:hover {
-    background: #d9534f;
+    background: #102E50;
     color: #fff;
   }
   
   .table-container {
-    background: #d9534f;
+    background: #102E50;
     border-radius: 18px;
     padding: 18px 18px 0 18px;
     margin-bottom: 18px;
@@ -112,7 +112,7 @@ body, html {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    background: #d9534f;
+    background: #102E50;
     color: #fff;
     border-radius: 12px;
     overflow: hidden;
@@ -125,7 +125,7 @@ body, html {
   }
   
   th {
-    background: #b52a1c;
+    background: #BE3D2A;
     font-weight: bold;
     position: sticky;
     top: 0;
@@ -156,7 +156,7 @@ body, html {
   .summary {
     display: flex;
     justify-content: space-between;
-    background: #d9534f;
+    background: #102E50;
     color: #fff;
     border-radius: 18px;
     padding: 10px 24px;
@@ -169,7 +169,7 @@ body, html {
   .add-section {
     display: flex;
     align-items: center;
-    background: #d9534f;
+    background: #102E50;
     border-radius: 18px;
     padding: 12px 18px;
     gap: 10px;
@@ -193,7 +193,7 @@ body, html {
   
   .minus-btn, .plus-btn {
     background: #fff;
-    color: #d9534f;
+    color: #102E50;
     border: none;
     border-radius: 10px;
     font-size: 1.3em;
@@ -204,13 +204,13 @@ body, html {
     transition: background 0.2s, color 0.2s;
   }
   .minus-btn:hover, .plus-btn:hover {
-    background: #b52a1c;
+    background: #BE3D2A;
     color: #fff;
   }
   
   .add-btn {
     background: #fff;
-    color: #d9534f;
+    color: #102E50;
     border: none;
     border-radius: 12px;
     padding: 10px 24px;
@@ -221,7 +221,7 @@ body, html {
     transition: background 0.2s, color 0.2s;
   }
   .add-btn:hover {
-    background: #b52a1c;
+    background: #BE3D2A;
     color: #fff;
   }
   
