@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Checkout</title>
+  <link rel="stylesheet" href="styles/customercheckout.css">
+</head>
+
+<body>
+  <div class="background">
+    <div class="checkout-container">
+      <!-- Optional Logo -->
+      <div class="logo-container">
+        <!-- Replace with your logo if needed -->
+        <img src="img/logo.png" alt="Logo" class="logo" />
+      </div>
+      <div class="header-row">
+        <div class="back-btn">&#8592;</div>
+        <div class="title">CUSTOMER CHECKOUT</div>
+        <button class="proceed-btn" onclick="showPopup()">Proceed to Payment</button>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Book Name</th>
+              <th>ISBN</th>
+              <th>Qty</th>
+              <th>Price</th>
+              <th>Total</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Harry Potter</td>
+              <td>123456</td>
+              <td>2</td>
+              <td>200</td>
+              <td>400</td>
+              <td class="actions">
+                <button class="edit-btn">Edit</button>
+                <button class="remove-btn">Remove</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="summary">
+        <div>No. of Items: 1</div>
+        <div>Total Amount: Php 400.00</div>
+      </div>
+      <div class="add-section">
+        <input type="text" placeholder="Enter ISBN">
+        <button class="minus-btn" id="minus-btn">-</button>
+        <input type="number" value="1" min="1" class="qty-input" id="qty-input">
+        <button class="plus-btn" id="plus-btn">+</button>
+        <button class="add-btn">Add</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="paymentPopup" class="popup">
+    <div class="popup-content">
+      <h2><strong>Payment</strong></h2>
+      <div class="payment-summary"><p>No. of Items: <strong id="item-total">2</strong></p></div>
+      <div class="payment-summary"><p>Total: <strong id="payment-total">Php 400.00</strong></p></div>
+
+      <input type="text" placeholder="Enter Cash Tendered" class="input-field"> <!-- disable this if amount insufficient --> 
+
+      <div class="warning" style="display: none;">Cash Tendered is insufficient.</div>
+
+      <button class="btn-proceed">Proceed</button>
+      <button class="btn-cancel" onclick="hidePopup()">Cancel</button>
+    </div>
+  </div>
+
+  <script src="scripts/customercheckout.js"></script>
+</body>
+
+</html>
