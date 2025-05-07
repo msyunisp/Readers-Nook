@@ -125,7 +125,7 @@ body, html {
   }
   
   th {
-    background: #BE3D2A;
+    background: #102E50;
     font-weight: bold;
     position: sticky;
     top: 0;
@@ -204,7 +204,7 @@ body, html {
     transition: background 0.2s, color 0.2s;
   }
   .minus-btn:hover, .plus-btn:hover {
-    background: #BE3D2A;
+    background: #102E50;
     color: #fff;
   }
   
@@ -221,7 +221,7 @@ body, html {
     transition: background 0.2s, color 0.2s;
   }
   .add-btn:hover {
-    background: #BE3D2A;
+    background: #102E50;
     color: #fff;
   }
   
@@ -246,7 +246,7 @@ body, html {
   }
 
   .btn, .btn-proceed, .btn-cancel {
-    background-color: #c0392b;
+    background-color: #102E50;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -273,7 +273,7 @@ body, html {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    background-color: #e74c3c;
+    background-color: #102E50;
     color: white;
     padding: 30px;
     border-radius: 20px;
@@ -309,7 +309,7 @@ body, html {
 
   .payment-summary {
     background-color: white; 
-    color: #c0392b;
+    color: #102E50;
     /* padding: 5px; */
     border-radius: 30px;
   }
